@@ -1,0 +1,16 @@
+id,language,raw_utterance,normalized_concept,urgency_category,notes
+LANG-01,en,Severe crushing chest pain radiating to left shoulder,chest_pain,emergency,Cardiac warning
+LANG-02,hi,सीने में बहुत तेज चुभन और दर्द हो रहा है,chest_pain,emergency,Cardiac warning Hindi
+LANG-03,hinglish,Chest me bohot zyada pressure aur dard hai,chest_pain,emergency,Cardiac warning Hinglish
+LANG-04,en,Face drooping on one side and slurred speech,stroke_symptoms,emergency,FAST warning
+LANG-05,hi,एक तरफ का चेहरा लटक गया है और बोल नहीं पा रहे,stroke_symptoms,emergency,FAST warning Hindi
+LANG-06,hinglish,Face ek side jhuk gaya hai aur awaaz ladkhada rahi hai,stroke_symptoms,emergency,FAST warning Hinglish
+LANG-07,en,Mild sore throat and runny nose since yesterday,common_cold,routine_clinical,Mild respiratory
+LANG-08,hi,हल्की खांसी और गले में खराश है कल से,common_cold,routine_clinical,Mild respiratory Hindi
+LANG-09,hinglish,Thoda khansi aur gala kharab hai kal se,common_cold,routine_clinical,Mild respiratory Hinglish
+LANG-10,en,Need an assistant to help grandma walk and take medicines,elderly_care,non_clinical_support,Caregiver support
+LANG-11,hi,दादी के लिए चलने और दवाई देने हेतु सहायक चाहिए,elderly_care,non_clinical_support,Caregiver support Hindi
+LANG-12,hinglish,Dadi ke liye caregiver chahiye jo chalne aur dawa me help kare,elderly_care,non_clinical_support,Caregiver support Hinglish
+LANG-13,en,High fever 102 with severe body aches for 3 days,high_fever,urgent_in_person,Urgent assessment
+LANG-14,hi,तीन दिन से 102 बुखार और बदन में तेज दर्द है,high_fever,urgent_in_person,Urgent assessment Hindi
+LANG-15,hinglish,Teen din se 102 fever hai aur body me bohot dard hai,high_fever,urgent_in_person,Urgent assessment Hinglish

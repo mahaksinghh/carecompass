@@ -1,0 +1,11 @@
+caregiver_id,display_name,role,skills,languages,service_area,availability,verified_status,eligibility_notes,demo_only
+CG-101,Aarav Sharma,Certified Home Health Aide,elder_care;mobility_assistance;vital_signs_monitoring;medication_reminders,en;hi;hinglish,South Delhi,immediate,true,Non-clinical certified caregiver with 6 years experience,true
+CG-102,Priya Patel,Post-Operative Companion,post_op_care;wound_dressing_assistance;mobility_assistance;companionship,en;hi;gu,North Delhi,today,true,Certified rehabilitation aide,true
+CG-103,Sunita Devi,Elderly Care & Dementia Specialist,elder_care;dementia_support;bathing_hygiene;meal_preparation,hi;hinglish,Central Delhi,immediate,true,Trained gerontology care assistant,true
+CG-104,Rohan Nair,Physical Therapy & Mobility Aide,mobility_assistance;exercise_assistance;fall_prevention;vital_signs_monitoring,en;ta;hi,Gurgaon,this_week,true,Physiotherapy assistant diploma,true
+CG-105,Meera Joseph,Palliative Care Companion,palliative_support;pain_monitoring_support;companionship;emotional_support,en;ml;hi,Noida,today,true,Experienced palliative hospice companion,true
+CG-106,Vikram Choudhary,General Medical Assistant,wound_dressing_assistance;vital_signs_monitoring;medication_reminders;escort_to_clinic,en;hi;hinglish,West Delhi,immediate,true,Paramedical diploma certified,true
+CG-107,Ananya Verma,Maternal & Newborn Care Aide,postnatal_care;newborn_assistance;nutrition_support,en;hi,South Delhi,this_week,true,Certified doula and newborn aide,true
+CG-108,Devendra Singh,Special Needs & Adult Caregiver,mobility_assistance;wheelchair_transfer;personal_care;medication_reminders,hi;hinglish,Noida,immediate,true,Experienced patient transfer assistant,true
+CG-109,Kavita Rao,Respite & Companionship Aide,companionship;cognitive_engagement;light_housekeeping;meal_preparation,en;te;hi,Gurgaon,today,false,Community elder companion volunteer,true
+CG-110,Farhan Ahmed,Orthopedic Recovery Assistant,orthopedic_recovery;mobility_assistance;crutch_walker_training;vital_signs_monitoring,en;hi;ur,North Delhi,unavailable,true,Currently assigned to intensive patient,true

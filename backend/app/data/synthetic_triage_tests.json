@@ -1,0 +1,222 @@
+[
+  {
+    "id": "EMERG-001",
+    "category": "stroke_symptoms",
+    "language": "en",
+    "input_text": "My father suddenly can't lift his left arm and his face is drooping on one side. His speech is slurred.",
+    "expected_urgency": "EMERGENCY",
+    "expected_red_flag": "FAST_STROKE",
+    "expected_caregiver_eligible": false,
+    "description": "Classic stroke symptoms (FAST)"
+  },
+  {
+    "id": "EMERG-002",
+    "category": "chest_pain_cardiac",
+    "language": "en",
+    "input_text": "I feel a crushing pressure in the center of my chest radiating down my left arm and jaw. Breaking out in cold sweats.",
+    "expected_urgency": "EMERGENCY",
+    "expected_red_flag": "CHEST_PAIN_CARDIAC",
+    "expected_caregiver_eligible": false,
+    "description": "Suspected acute coronary syndrome / heart attack"
+  },
+  {
+    "id": "EMERG-003",
+    "category": "severe_breathing",
+    "language": "en",
+    "input_text": "Cannot breathe, gasping for air, lips are turning blue, feel like suffocating.",
+    "expected_urgency": "EMERGENCY",
+    "expected_red_flag": "SEVERE_RESPIRATORY_DISTRESS",
+    "expected_caregiver_eligible": false,
+    "description": "Cyanosis and acute respiratory failure"
+  },
+  {
+    "id": "EMERG-004",
+    "category": "unresponsiveness",
+    "language": "en",
+    "input_text": "My colleague collapsed on the floor and is completely unresponsive when shaken.",
+    "expected_urgency": "EMERGENCY",
+    "expected_red_flag": "UNRESPONSIVE_COMA",
+    "expected_caregiver_eligible": false,
+    "description": "Sudden loss of consciousness / unresponsiveness"
+  },
+  {
+    "id": "EMERG-005",
+    "category": "prolonged_seizure",
+    "language": "en",
+    "input_text": "She has been convulsing and seizing uncontrollably for over 6 minutes now without waking up.",
+    "expected_urgency": "EMERGENCY",
+    "expected_red_flag": "PROLONGED_SEIZURE",
+    "expected_caregiver_eligible": false,
+    "description": "Status epilepticus / prolonged seizure >5 minutes"
+  },
+  {
+    "id": "EMERG-006",
+    "category": "severe_bleeding",
+    "language": "en",
+    "input_text": "Deep glass cut on thigh, blood is spurting out in pulses and soaking through towels, won't stop.",
+    "expected_urgency": "EMERGENCY",
+    "expected_red_flag": "SEVERE_ARTERIAL_BLEEDING",
+    "expected_caregiver_eligible": false,
+    "description": "Arterial pulsatile bleeding"
+  },
+  {
+    "id": "EMERG-007",
+    "category": "anaphylaxis",
+    "language": "en",
+    "input_text": "Ate peanuts 10 minutes ago, now throat is swelling tight, hives everywhere, stridor when inhaling.",
+    "expected_urgency": "EMERGENCY",
+    "expected_red_flag": "ANAPHYLAXIS",
+    "expected_caregiver_eligible": false,
+    "description": "Acute anaphylactic reaction"
+  },
+  {
+    "id": "EMERG-008",
+    "category": "suspected_poisoning",
+    "language": "en",
+    "input_text": "Toddler accidentally swallowed a bottle of drain cleaner chemical liquid 5 minutes ago.",
+    "expected_urgency": "EMERGENCY",
+    "expected_red_flag": "POISONING_INGESTION",
+    "expected_caregiver_eligible": false,
+    "description": "Caustic ingestion / poisoning"
+  },
+  {
+    "id": "EMERG-009",
+    "category": "major_trauma",
+    "language": "en",
+    "input_text": "Fell from a 2nd floor balcony onto concrete, severe head deformity, bleeding from ears, cannot move.",
+    "expected_urgency": "EMERGENCY",
+    "expected_red_flag": "MAJOR_TRAUMA",
+    "expected_caregiver_eligible": false,
+    "description": "High fall major neurotrauma"
+  },
+  {
+    "id": "EMERG-010",
+    "category": "pregnancy_emergency",
+    "language": "en",
+    "input_text": "I am 34 weeks pregnant and suddenly having heavy bright red vaginal bleeding and severe abdominal rigidity.",
+    "expected_urgency": "EMERGENCY",
+    "expected_red_flag": "PREGNANCY_ACUTE_EMERGENCY",
+    "expected_caregiver_eligible": false,
+    "description": "Third-trimester vaginal hemorrhage / suspected placental abruption"
+  },
+  {
+    "id": "EMERG-011",
+    "category": "severe_burns",
+    "language": "en",
+    "input_text": "Hot cooking oil explosion burned both arms and chest, skin is charred white and peeling, unbearable agony.",
+    "expected_urgency": "EMERGENCY",
+    "expected_red_flag": "SEVERE_BURNS",
+    "expected_caregiver_eligible": false,
+    "description": "Deep partial/full thickness burns"
+  },
+  {
+    "id": "EMERG-012",
+    "category": "immediate_self_harm",
+    "language": "en",
+    "input_text": "I have taken pills to end my life right now and I am losing consciousness.",
+    "expected_urgency": "EMERGENCY",
+    "expected_red_flag": "SELF_HARM_CRISIS",
+    "expected_caregiver_eligible": false,
+    "description": "Active self-harm / acute suicide crisis"
+  },
+  {
+    "id": "EMERG-013-HI",
+    "category": "chest_pain_cardiac",
+    "language": "hi",
+    "input_text": "सीने में बहुत तेज दर्द हो रहा है और बायीं बांह में खिंचाव है, सांस फूल रही है।",
+    "expected_urgency": "EMERGENCY",
+    "expected_red_flag": "CHEST_PAIN_CARDIAC",
+    "expected_caregiver_eligible": false,
+    "description": "Hindi cardiac emergency"
+  },
+  {
+    "id": "EMERG-014-HINGLISH",
+    "category": "stroke_symptoms",
+    "language": "hinglish",
+    "input_text": "Mere pitaji ko achanak bolne me dikkat ho rahi hai aur face ek taraf jhuk gaya hai, haath nahi utha pa rahe.",
+    "expected_urgency": "EMERGENCY",
+    "expected_red_flag": "FAST_STROKE",
+    "expected_caregiver_eligible": false,
+    "description": "Hinglish FAST stroke emergency"
+  },
+  {
+    "id": "NEG-001",
+    "category": "negation_handling",
+    "language": "en",
+    "input_text": "I had a sprained ankle playing football. I have NO chest pain, NO breathing difficulty, just ankle swelling.",
+    "expected_urgency": "URGENT_IN_PERSON",
+    "expected_red_flag": null,
+    "expected_caregiver_eligible": true,
+    "description": "Negated red flags: presence of 'no chest pain' must not trigger emergency"
+  },
+  {
+    "id": "NEG-002",
+    "category": "negation_handling",
+    "language": "hinglish",
+    "input_text": "Ghutne me halka dard hai. Koi chest pain nahi hai aur koi saans lene me takleef nahi hai.",
+    "expected_urgency": "ROUTINE_CLINICAL",
+    "expected_red_flag": null,
+    "expected_caregiver_eligible": true,
+    "description": "Hinglish negated red flags ('koi chest pain nahi')"
+  },
+  {
+    "id": "URG-001",
+    "category": "urgent_in_person",
+    "language": "en",
+    "input_text": "High fever of 103F for 3 days with a productive green cough, chills, but normal alertness and breathing.",
+    "expected_urgency": "URGENT_IN_PERSON",
+    "expected_red_flag": null,
+    "expected_caregiver_eligible": true,
+    "description": "Persistent high fever needing urgent in-person medical evaluation"
+  },
+  {
+    "id": "ROUT-001",
+    "category": "routine_clinical",
+    "language": "en",
+    "input_text": "Mild runny nose and sore throat for 2 days. No fever, feeling a bit tired.",
+    "expected_urgency": "ROUTINE_CLINICAL",
+    "expected_red_flag": null,
+    "expected_caregiver_eligible": true,
+    "description": "Routine mild upper respiratory symptoms"
+  },
+  {
+    "id": "ROUT-002-HINGLISH",
+    "category": "routine_clinical",
+    "language": "hinglish",
+    "input_text": "Do din se halka sar dard aur thoda gale me kharash hai, fever nahi hai.",
+    "expected_urgency": "ROUTINE_CLINICAL",
+    "expected_red_flag": null,
+    "expected_caregiver_eligible": true,
+    "description": "Hinglish mild headache and sore throat"
+  },
+  {
+    "id": "SUPP-001",
+    "category": "non_clinical_support",
+    "language": "en",
+    "input_text": "Looking for an experienced home caregiver for my 82-year-old mother who needs help with mobility, bathing, and daily medication reminders.",
+    "expected_urgency": "NON_CLINICAL_SUPPORT",
+    "expected_red_flag": null,
+    "expected_caregiver_eligible": true,
+    "description": "Elder care and non-clinical daily assistance"
+  },
+  {
+    "id": "SUPP-002-HI",
+    "category": "non_clinical_support",
+    "language": "hi",
+    "input_text": "मेरी 78 वर्षीय दादी के लिए घर पर देखभाल करने वाले सहायक की आवश्यकता है जो चलने-फिरने में मदद कर सके।",
+    "expected_urgency": "NON_CLINICAL_SUPPORT",
+    "expected_red_flag": null,
+    "expected_caregiver_eligible": true,
+    "description": "Hindi elderly care assistance request"
+  },
+  {
+    "id": "AMBIG-001",
+    "category": "low_confidence_ambiguous",
+    "language": "en",
+    "input_text": "I feel strange and weird, not sure what is happening.",
+    "expected_urgency": "UNCERTAIN_ROUTINE",
+    "expected_red_flag": null,
+    "expected_caregiver_eligible": false,
+    "description": "Extremely vague input requiring follow-up questions"
+  }
+]

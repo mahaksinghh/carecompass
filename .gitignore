@@ -15,6 +15,12 @@ dist/
 build/
 .next/
 out/
+venv/
+.venv/
+backend/venv/
+__pycache__/
+*.pyc
+.pytest_cache/
 
 # Logs
 npm-debug.log*
