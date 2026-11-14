@@ -16,6 +16,7 @@ export async function parseConcern(
   voiceUsed: boolean = false
 ): Promise<{ extracted_symptoms: ExtractedSymptom[]; uncertainty_detected: boolean; session_token: string }> {
   try {
+    if (API_BASE_URL === '') throw new Error('Client demo mode');
     const res = await fetch(`${API_BASE_URL}/api/v1/intake/parse`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -40,6 +41,7 @@ export async function fetchFollowUpQuestions(
   language: LanguageCode
 ): Promise<{ questions: FollowUpQuestion[]; progress_percent: number }> {
   try {
+    if (API_BASE_URL === '') throw new Error('Client demo mode');
     const res = await fetch(`${API_BASE_URL}/api/v1/intake/follow-up`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -75,6 +77,7 @@ export async function evaluateTriage(
   language: LanguageCode
 ): Promise<TriageEvaluateResponse> {
   try {
+    if (API_BASE_URL === '') throw new Error('Client demo mode');
     const res = await fetch(`${API_BASE_URL}/api/v1/triage/evaluate`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -133,6 +136,7 @@ export async function matchCaregivers(
   preferredLanguage: string
 ): Promise<CaregiverMatchResponse> {
   try {
+    if (API_BASE_URL === '') throw new Error('Client demo mode');
     const res = await fetch(`${API_BASE_URL}/api/v1/caregivers/match`, {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -194,6 +198,7 @@ export async function matchCaregivers(
 
 export async function resetSession(): Promise<void> {
   try {
+    if (API_BASE_URL === '') return;
     await fetch(`${API_BASE_URL}/api/v1/session/reset`, { method: 'POST' });
   } catch (err) {
     console.warn('Reset local session:', err);
@@ -202,6 +207,7 @@ export async function resetSession(): Promise<void> {
 
 export async function fetchDemoScenarios(): Promise<DemoScenario[]> {
   try {
+    if (API_BASE_URL === '') throw new Error('Client demo mode');
     const res = await fetch(`${API_BASE_URL}/api/v1/demo/scenarios`);
     if (!res.ok) throw new Error(`HTTP error ${res.status}`);
     return await res.json();
